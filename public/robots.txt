@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://salman-immersive-portfolio.vercel.app/sitemap.xml
