@@ -201,6 +201,8 @@ export function HeroInterface({ profile, skillClusters, onOpenRecruiter }: HeroI
             <a
               href="/salman-cv.pdf"
               download="Muhammad_Salman_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => soundFx.playClick()}
               onMouseEnter={() => soundFx.playHover()}
               className="flex items-center gap-2 rounded-2xl border-2 border-amber-400/80 bg-amber-400/25 px-6 py-3.5 font-mono text-xs sm:text-sm font-extrabold uppercase tracking-wider text-amber-200 transition-all duration-300 hover:scale-105 hover:bg-amber-400 hover:text-black hover:shadow-[0_0_35px_rgba(251,191,36,0.7)]"

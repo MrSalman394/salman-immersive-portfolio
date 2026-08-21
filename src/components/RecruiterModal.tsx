@@ -86,6 +86,8 @@ export function RecruiterModal({ isOpen, onClose }: RecruiterModalProps) {
             <a
               href="/salman-cv.pdf"
               download="Muhammad_Salman_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => soundFx.playClick()}
               className="flex items-center justify-center gap-2 rounded-xl border-2 border-amber-400 bg-amber-400/25 px-5 py-3 font-mono text-xs sm:text-sm font-extrabold uppercase text-amber-200 hover:bg-amber-400 hover:text-black transition-all duration-200 shadow-[0_0_15px_rgba(251,191,36,0.3)]"
             >
